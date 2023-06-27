@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/ContactImg"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_margin="10dp"
+        android:src="@drawable/ic_person"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/ContactName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/ContactImg"
+        app:layout_constraintStart_toEndOf="@id/ContactImg"
+        android:layout_marginStart="5dp"
+        tools:text="Ahmed"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textSize="22sp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/ContactPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="@id/ContactName"
+        app:layout_constraintStart_toEndOf="@id/ContactImg"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="40dp"
+        tools:text="01002882077"
+        android:textStyle="normal"
+        android:textColor="#739091"
+        android:textSize="18sp"/>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

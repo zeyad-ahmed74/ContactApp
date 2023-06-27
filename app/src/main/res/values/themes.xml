@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Contacts" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">#601919</item>
+        <item name="colorPrimaryVariant">#601919</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">#EDE33333</item>
+        <item name="colorSecondaryVariant">#7E601919</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="actionModeBackground">@color/brown</item>
+        <item name="colorControlActivated">@color/brown</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>
